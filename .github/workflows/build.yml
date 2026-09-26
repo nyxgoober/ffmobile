@@ -26,6 +26,9 @@ jobs:
         run: |
           echo "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/release.jks"
 
+      - name: Make Gradle executable
+        run: chmod +x gradlew
+
       - name: Build release
         env:
           KEYSTORE: ${{ runner.temp }}/release.jks
