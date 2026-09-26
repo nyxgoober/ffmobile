@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Uploaded icon is a complete flat square image (no separate
+         foreground/background layering), so both layers point at the same
+         mipmap and let the OS apply its own mask shape (circle/squircle/etc).
+         If the OS-applied mask crops too much of the artwork, revert to the
+         previous vector-based foreground+background pair. -->
+    <background android:drawable="@mipmap/ic_launcher" />
+    <foreground android:drawable="@mipmap/ic_launcher" />
+</adaptive-icon>

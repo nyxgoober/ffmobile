@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Green rounded "film frame" -->
+    <path
+        android:fillColor="#00E5A0"
+        android:pathData="M36,30 h36 a8,8 0 0 1 8,8 v32 a8,8 0 0 1 -8,8 H36 a8,8 0 0 1 -8,-8 V38 a8,8 0 0 1 8,-8 Z" />
+    <!-- Sprocket holes along the top edge -->
+    <path
+        android:fillColor="#0E1116"
+        android:pathData="M34,35 h7 v5 h-7 Z M46,35 h7 v5 h-7 Z M58,35 h7 v5 h-7 Z M70,35 h3 v5 h-3 Z" />
+    <!-- Sprocket holes along the bottom edge -->
+    <path
+        android:fillColor="#0E1116"
+        android:pathData="M34,68 h7 v5 h-7 Z M46,68 h7 v5 h-7 Z M58,68 h7 v5 h-7 Z M70,68 h3 v5 h-3 Z" />
+    <!-- White play triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,46 L67,54 L48,62 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+</vector>
